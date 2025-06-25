@@ -23,31 +23,23 @@ This project is a simple employee database management system created using SQL. 
 - `admission_date` (DATE) – Date when the student was admitted.
   
 
-###Subjects
+### Subjects
 - `subject_id` (INT, Primary Key) – Unique identifier for each subject.
 - `subject_name` (VARCHAR(30)) – Name of the subject (e.g., Mathematics, Science, History).
 
-###Teachers
+### Teachers
 - `teacher_id` (INT, Primary Key) – Unique identifier for each teacher.
 - `teacher_name` (VARCHAR(50)) – Full name of the teacher.
 - `subject_id` (INT, Foreign Key) – Subject assigned to the teacher; references Subjects(subject_id).
 - `contact_number` (VARCHAR(10)) – Contact number of the teacher.
 - `city` (VARCHAR(30)) – City where the teacher resides.
 
-##Sample Data
+## Sample Data
 The Students table contains  sample students details, and the Subjects table includes  various Subjects and Teachers table contains sample teachers records.
 
-###Students Table 
-
-Here's the README section with your provided **`Students`** table data formatted as a Markdown table, similar to the one shown in your screenshot for **Departments**:
-
----
-
-### Sample Data
-
+### Students Table 
 The `Students` table contains records of students along with their academic and contact details.
 
-#### Students Table
 
 | student\_id | student\_name | gender | date\_of\_birth | class | section | roll\_no | contact\_number | city      | admission\_date |
 | ----------- | ------------- | ------ | --------------- | ----- | ------- | -------- | --------------- | --------- | --------------- |
