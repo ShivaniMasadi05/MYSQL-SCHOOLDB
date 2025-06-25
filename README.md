@@ -10,17 +10,14 @@ This project is a simple employee database management system created using SQL. 
 
 ## Database Schema
 
-### Departments
-- `DepartmentID` (INT, Primary Key, Auto Increment) – Unique identifier for departments.
-- `DepartmentName` (VARCHAR(50)) – Name of the department.
-
-### Employees
-- `EmployeeID` (INT, Primary Key, Auto Increment) – Unique identifier for employees.
-- `FirstName` (VARCHAR(50)) – First name of the employee.
-- `LastName` (VARCHAR(50)) – Last name of the employee.
-- `Email` (VARCHAR(100)) – Email address of the employee.
-- `Phone` (VARCHAR(20)) – Contact number.
-- `HireDate` (DATE) – Date the employee was hired.
-- `JobTitle` (VARCHAR(50)) – Job title of the employee.
-- `Salary` (DECIMAL(10,2)) – Salary of the employee.
-- `DepartmentID` (INT, Foreign Key) – Linked to the Departments table.
+### Students
+- `student_id` (INT, Primary Key) – Unique identifier for students.
+- `student_name` (VARCHAR(50)) – Full name of the student.
+- `gender` (CHAR(1)) – Gender of the student (e.g., 'M' or 'F').
+- `date_of_birth` (DATE) – Date of birth of the student.
+- `class`(INT) – Class or grade of the student.
+- `section` (CHAR(1)) – Section in which the student is enrolled.
+- `roll_no` (INT) – Roll number assigned to the student.
+- `contact_number` (VARCHAR(10)) – Contact number of the student or guardian.
+- `city` (VARCHAR(30)) – City of residence.
+- `admission_date` (DATE) – Date when the student was admitted.
