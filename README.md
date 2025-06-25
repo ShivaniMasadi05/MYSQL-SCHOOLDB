@@ -21,6 +21,7 @@ This project is a simple employee database management system created using SQL. 
 - `contact_number` (VARCHAR(10)) – Contact number of the student or guardian.
 - `city` (VARCHAR(30)) – City of residence.
 - `admission_date` (DATE) – Date when the student was admitted.
+  
 
 ###Subjects
 - `subject_id` (INT, Primary Key) – Unique identifier for each subject.
