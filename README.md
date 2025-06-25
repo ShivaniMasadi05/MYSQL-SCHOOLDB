@@ -38,8 +38,6 @@ This project is a simple employee database management system created using SQL. 
 The Students table contains  sample students details, and the Subjects table includes  various Subjects and Teachers table contains sample teachers records.
 
 ### Students Table 
-The `Students` table contains records of students along with their academic and contact details.
-
 
 | student\_id | student\_name | gender | date\_of\_birth | class | section | roll\_no | contact\_number | city      | admission\_date |
 | ----------- | ------------- | ------ | --------------- | ----- | ------- | -------- | --------------- | --------- | --------------- |
@@ -55,6 +53,25 @@ The `Students` table contains records of students along with their academic and 
 | 110         | Rohan Das     | M      | 2007-08-11      | 11    | B       | 10       | 9876543219      | Kolkata   | 2019-06-10      |
 
 
+### Subjects Table
+
+| subject\_id | subject\_name |
+| ----------- | ------------- |
+| 201         | Mathematics   |
+| 202         | Science       |
+| 203         | English       |
+| 204         | History       |
+| 205         | Computer      |
+
+### Teachers Table
+
+| teacher\_id | teacher\_name | subject\_id | contact\_number | city    |
+| ----------- | ------------- | ----------- | --------------- | ------- |
+| 301         | Mr. Sharma    | 201         | 9876543201      | Delhi   |
+| 302         | Ms. Fernandes | 202         | 9876543202      | Mumbai  |
+| 303         | Mrs. Iyer     | 203         | 9876543203      | Chennai |
+| 304         | Mr. Khan      | 204         | 9876543204      | Bhopal  |
+| 305         | Ms. Kapoor    | 205         | 9876543205      | Jaipur  |
 
 
 
