@@ -81,9 +81,9 @@ The Students table contains  sample students details, and the Subjects table inc
 
 ### Enrollments Table
 
-+---------------+-------------+-------------+
-| enrollment_id | student_id  | subject_id  |
-+---------------+-------------+-------------+
+
+| enrollment\_id| student\_id | subject\_id |
+|-------------------------------------------
 |      1        |     101     |     201     |
 |      2        |     101     |     202     |
 |      3        |     102     |     201     |
@@ -95,7 +95,7 @@ The Students table contains  sample students details, and the Subjects table inc
 |      9        |     108     |     204     |
 |     10        |     109     |     205     |
 |     11        |     110     |     202     |
-+---------------+-------------+-------------+
+
 
 
 
