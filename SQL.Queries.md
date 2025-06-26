@@ -1,4 +1,4 @@
-## SQL Queries
+# SQL Queries
 The project includes various SQL queries for retrieving information from the database.
 
 - To get the Structure of respective Tables
@@ -17,8 +17,8 @@ The project includes various SQL queries for retrieving information from the dat
   SELECT * FROM Enrollments;
   ```
 
-## JOINS
-# Easy Level JOIN Questions
+### JOINS
+## Easy Level JOIN Questions
 - List all students with the subjects they are enrolled in.
   ```sql
   SELECT s.student_name, sub.subject_name
