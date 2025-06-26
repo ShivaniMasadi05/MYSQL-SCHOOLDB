@@ -4,7 +4,6 @@ This project is a simple employee database management system created using SQL. 
 ## Table of Contents
 - [Database Schema](#database-schema)
 - [Sample Data](#sample-data)
-- [SQL Queries](#sql-queries)
 - [ER Diagram](#ER-Diagram)
 
 ---
