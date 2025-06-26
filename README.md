@@ -1,5 +1,5 @@
 # MYSQL-SCHOOLDB
-This project is a simple employee database management system created using SQL. It includes the creation of THREE tables: Students, Subjects Teachers and Enrollments along with sample data and several SQL queries to retrieve information. The project is aimed at demonstrating how to set up a basic employee database and perform common operations.
+This project is a simple employee database management system created using SQL. It includes the creation of FOUR tables: Students, Subjects Teachers and Enrollments along with sample data and several SQL queries to retrieve information. The project is aimed at demonstrating how to set up a basic employee database and perform common operations.
 
 ## Table of Contents
 - [Database Schema](#database-schema)
