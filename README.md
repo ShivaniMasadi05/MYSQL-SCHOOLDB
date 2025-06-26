@@ -1,5 +1,5 @@
 # MYSQL-SCHOOLDB
-This project is a simple employee database management system created using SQL. It includes the creation of THREE tables: Students, Subjects and Teachers, along with sample data and several SQL queries to retrieve information. The project is aimed at demonstrating how to set up a basic employee database and perform common operations.
+This project is a simple employee database management system created using SQL. It includes the creation of THREE tables: Students, Subjects Teachers and Enrollments along with sample data and several SQL queries to retrieve information. The project is aimed at demonstrating how to set up a basic employee database and perform common operations.
 
 ## Table of Contents
 - [Database Schema](#database-schema)
@@ -33,6 +33,12 @@ This project is a simple employee database management system created using SQL. 
 - `subject_id` (INT, Foreign Key) – Subject assigned to the teacher; references Subjects(subject_id).
 - `contact_number` (VARCHAR(10)) – Contact number of the teacher.
 - `city` (VARCHAR(30)) – City where the teacher resides.
+
+### Enrollments
+- `enrollment_id` (INT, Primary Key) – Unique identifier for each enrollment record.
+- `student_id` (INT, Foreign Key) – References Students(student_id); identifies which student is enrolled.
+- `subject_id` (INT, Foreign Key) – References Subjects(subject_id); identifies which subject the student is enrolled in.
+
 
 ## Sample Data
 The Students table contains  sample students details, and the Subjects table includes  various Subjects and Teachers table contains sample teachers records.
@@ -72,6 +78,25 @@ The Students table contains  sample students details, and the Subjects table inc
 | 303         | Mrs. Iyer     | 203         | 9876543203      | Chennai |
 | 304         | Mr. Khan      | 204         | 9876543204      | Bhopal  |
 | 305         | Ms. Kapoor    | 205         | 9876543205      | Jaipur  |
+
+### Enrollments Table
+
++---------------+-------------+-------------+
+| enrollment_id | student_id  | subject_id  |
++---------------+-------------+-------------+
+|      1        |     101     |     201     |
+|      2        |     101     |     202     |
+|      3        |     102     |     201     |
+|      4        |     103     |     203     |
+|      5        |     104     |     205     |
+|      6        |     105     |     201     |
+|      7        |     106     |     202     |
+|      8        |     107     |     203     |
+|      9        |     108     |     204     |
+|     10        |     109     |     205     |
+|     11        |     110     |     202     |
++---------------+-------------+-------------+
+
 
 
 
