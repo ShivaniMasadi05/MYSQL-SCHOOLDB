@@ -5,6 +5,7 @@ This project is a simple employee database management system created using SQL. 
 - [Database Schema](#database-schema)
 - [Sample Data](#sample-data)
 - [SQL Queries](#sql-queries)
+- [ER Diagram](#ER-Diagram)
 
 ---
 
@@ -95,6 +96,10 @@ The Students table contains  sample students details, and the Subjects table inc
 |      9        |     108     |     204     |
 |     10        |     109     |     205     |
 |     11        |     110     |     202     |
+
+### ER- Diagram
+
+![image](https://github.com/user-attachments/assets/e67fb564-640b-4cb3-9201-c533ef1ef605)
 
 
 
