@@ -63,3 +63,29 @@ The project includes various SQL queries for retrieving information from the dat
   JOIN Enrollments e ON sub.subject_id = e.subject_id
   GROUP BY sub.subject_name;
   ```
+### Difficult Level JOIN Questions
+- List teachers and the number of students enrolled in their subject.
+  ```sql
+  SELECT t.teacher_name, COUNT(e.student_id) AS student_count
+  FROM Teachers t
+  JOIN Subjects sub ON t.subject_id = sub.subject_id
+  JOIN Enrollments e ON sub.subject_id = e.subject_id
+  GROUP BY t.teacher_name;
+  ```
+- List students who are enrolled in all subjects taught by teachers in 'Delhi'.
+  ```sql
+  SELECT DISTINCT s.student_name
+  FROM Students s
+  JOIN Enrollments e ON s.student_id = e.student_id
+  JOIN Subjects sub ON e.subject_id = sub.subject_id
+  JOIN Teachers t ON sub.subject_id = t.subject_id
+  WHERE t.city = 'Delhi';
+  ```
+- Find students who are enrolled in more than one subject.
+  ```sql
+  SELECT s.student_name, COUNT(e.subject_id) AS subjects_count
+  FROM Students s
+  JOIN Enrollments e ON s.student_id = e.student_id
+  GROUP BY s.student_id, s.student_name
+  HAVING COUNT(e.subject_id) > 1;
+  ```
